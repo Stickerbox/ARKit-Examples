@@ -13,7 +13,7 @@ import ARKit
 class RemoteCarViewController: UIViewController, ARSCNViewDelegate {
     
     static let example = ARExample(title: "Remote Controlled Car",
-                                   subtitle: "Drive the worst car ever",
+                                   subtitle: "Drive the worst remote controlled car ever. First make some road by pointing the phone at the ground, the tap the road to make the car appear",
                                    instance: RemoteCarViewController.self)
     
     var sceneView: ARSCNView!

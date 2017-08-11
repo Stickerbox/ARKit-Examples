@@ -13,7 +13,7 @@ import ARKit
 class MissileLaunchViewController: UIViewController, ARSCNViewDelegate {
     
     static let example = ARExample(title: "Missile Launcher",
-                                   subtitle: "Just like North Korea, this will either launch or just combust",
+                                   subtitle: "Just like North Korea, this rocket will either launch or just combust",
                                    instance: MissileLaunchViewController.self)
     
     var sceneView: ARSCNView!

@@ -13,7 +13,7 @@ import ARKit
 class DetectingPlaneViewController: UIViewController, ARSCNViewDelegate {
     
     static let example = ARExample(title: "Detecting Planes",
-                                   subtitle: "Shows you how to detect planes",
+                                   subtitle: "Shows you how to detect physical planes",
                                    instance: DetectingPlaneViewController.self)
     
     var sceneView: ARSCNView!

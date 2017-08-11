@@ -13,7 +13,7 @@ import ARKit
 class MeasuringTapeViewController: UIViewController, ARSCNViewDelegate {
     
     static let example = ARExample(title: "Measuring Distances",
-                                   subtitle: "Measure the distance between two points",
+                                   subtitle: "Measure the distance between two points by tapping. The result will be displayed in the center of the two points",
                                    instance: MeasuringTapeViewController.self)
     
     var sceneView: ARSCNView!

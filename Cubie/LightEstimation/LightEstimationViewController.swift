@@ -13,7 +13,7 @@ import ARKit
 class LightEstimationViewController: UIViewController, ARSCNViewDelegate {
     
     static let example = ARExample(title: "Light Estimation",
-                                   subtitle: "Estimates the light based on the ambient light",
+                                   subtitle: "Estimates the light for the virtual enviroment based on the ambient light of the real world",
                                    instance: LightEstimationViewController.self)
     
     var sceneView: ARSCNView!

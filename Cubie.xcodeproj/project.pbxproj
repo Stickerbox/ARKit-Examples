@@ -7,15 +7,41 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9C89549B1F3DC03300B6CAE8 /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C89549A1F3DC03300B6CAE8 /* Car.swift */; };
+		9C89549E1F3DD52A00B6CAE8 /* OverviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C89549D1F3DD52A00B6CAE8 /* OverviewViewController.swift */; };
+		9C8954A01F3DD67B00B6CAE8 /* VCTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C89549F1F3DD67B00B6CAE8 /* VCTableViewCell.swift */; };
 		9C8F3D961F3C57ED003D6DFC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C8F3D951F3C57ED003D6DFC /* AppDelegate.swift */; };
 		9C8F3D981F3C57ED003D6DFC /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C8F3D971F3C57ED003D6DFC /* art.scnassets */; };
 		9C8F3D9A1F3C57ED003D6DFC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C8F3D991F3C57ED003D6DFC /* ViewController.swift */; };
 		9C8F3D9D1F3C57ED003D6DFC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C8F3D9B1F3C57ED003D6DFC /* Main.storyboard */; };
 		9C8F3D9F1F3C57ED003D6DFC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C8F3D9E1F3C57ED003D6DFC /* Assets.xcassets */; };
 		9C8F3DA21F3C57ED003D6DFC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C8F3DA01F3C57ED003D6DFC /* LaunchScreen.storyboard */; };
+		9C8F3DAA1F3C57FA003D6DFC /* CubeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C8F3DA91F3C57FA003D6DFC /* CubeViewController.swift */; };
+		9C8F3DAC1F3C5E73003D6DFC /* TextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C8F3DAB1F3C5E73003D6DFC /* TextViewController.swift */; };
+		9C8F3DAE1F3C5E9C003D6DFC /* MultipleObjectsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C8F3DAD1F3C5E9C003D6DFC /* MultipleObjectsViewController.swift */; };
+		9C8F3DB21F3C6250003D6DFC /* TapGestureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C8F3DB11F3C6250003D6DFC /* TapGestureViewController.swift */; };
+		9C8F3DB41F3C648E003D6DFC /* DetectingPlanesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C8F3DB31F3C648E003D6DFC /* DetectingPlanesViewController.swift */; };
+		9CCE5B451F3C73F10065F5F7 /* OverlayingPlanes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CCE5B441F3C73F10065F5F7 /* OverlayingPlanes.swift */; };
+		9CCE5B481F3C740E0065F5F7 /* OverlayPlane.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CCE5B471F3C740E0065F5F7 /* OverlayPlane.swift */; };
+		9CCE5B6A1F3C84820065F5F7 /* VirtualObjectsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CCE5B691F3C84820065F5F7 /* VirtualObjectsViewController.swift */; };
+		9CF05AB41F3CBA3C006105B6 /* PlanetsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CF05AB31F3CBA3C006105B6 /* PlanetsViewController.swift */; };
+		9CF05AB61F3D8E22006105B6 /* MissileLaunchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CF05AB51F3D8E22006105B6 /* MissileLaunchViewController.swift */; };
+		9CF05AD81F3D9200006105B6 /* Missile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CF05AD71F3D9200006105B6 /* Missile.swift */; };
+		9CF05ADB1F3D9325006105B6 /* smoke.scnp in Resources */ = {isa = PBXBuildFile; fileRef = 9CF05AD91F3D9325006105B6 /* smoke.scnp */; };
+		9CF05ADC1F3D9325006105B6 /* smoke.png in Resources */ = {isa = PBXBuildFile; fileRef = 9CF05ADA1F3D9325006105B6 /* smoke.png */; };
+		9CF05ADF1F3D967A006105B6 /* fire.scnp in Resources */ = {isa = PBXBuildFile; fileRef = 9CF05ADD1F3D967A006105B6 /* fire.scnp */; };
+		9CF05AE01F3D967A006105B6 /* spark.png in Resources */ = {isa = PBXBuildFile; fileRef = 9CF05ADE1F3D967A006105B6 /* spark.png */; };
+		9CF05AE31F3D9981006105B6 /* TargetShooterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CF05AE21F3D9981006105B6 /* TargetShooterViewController.swift */; };
+		9CF05AE61F3DA41A006105B6 /* MeasuringTapeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CF05AE51F3DA41A006105B6 /* MeasuringTapeViewController.swift */; };
+		9CF05AE91F3DAE46006105B6 /* LightEstimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CF05AE81F3DAE46006105B6 /* LightEstimationViewController.swift */; };
+		9CF05AEC1F3DB180006105B6 /* RemoteCarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CF05AEB1F3DB180006105B6 /* RemoteCarViewController.swift */; };
+		9CF05AEE1F3DBC77006105B6 /* GameButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CF05AED1F3DBC77006105B6 /* GameButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9C89549A1F3DC03300B6CAE8 /* Car.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Car.swift; sourceTree = "<group>"; };
+		9C89549D1F3DD52A00B6CAE8 /* OverviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverviewViewController.swift; sourceTree = "<group>"; };
+		9C89549F1F3DD67B00B6CAE8 /* VCTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VCTableViewCell.swift; sourceTree = "<group>"; };
 		9C8F3D921F3C57ED003D6DFC /* Cubie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cubie.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C8F3D951F3C57ED003D6DFC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9C8F3D971F3C57ED003D6DFC /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
@@ -24,6 +50,26 @@
 		9C8F3D9E1F3C57ED003D6DFC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9C8F3DA11F3C57ED003D6DFC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9C8F3DA31F3C57ED003D6DFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9C8F3DA91F3C57FA003D6DFC /* CubeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CubeViewController.swift; sourceTree = "<group>"; };
+		9C8F3DAB1F3C5E73003D6DFC /* TextViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextViewController.swift; sourceTree = "<group>"; };
+		9C8F3DAD1F3C5E9C003D6DFC /* MultipleObjectsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipleObjectsViewController.swift; sourceTree = "<group>"; };
+		9C8F3DB11F3C6250003D6DFC /* TapGestureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapGestureViewController.swift; sourceTree = "<group>"; };
+		9C8F3DB31F3C648E003D6DFC /* DetectingPlanesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetectingPlanesViewController.swift; sourceTree = "<group>"; };
+		9CCE5B441F3C73F10065F5F7 /* OverlayingPlanes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverlayingPlanes.swift; sourceTree = "<group>"; };
+		9CCE5B471F3C740E0065F5F7 /* OverlayPlane.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverlayPlane.swift; sourceTree = "<group>"; };
+		9CCE5B691F3C84820065F5F7 /* VirtualObjectsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VirtualObjectsViewController.swift; sourceTree = "<group>"; };
+		9CF05AB31F3CBA3C006105B6 /* PlanetsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetsViewController.swift; sourceTree = "<group>"; };
+		9CF05AB51F3D8E22006105B6 /* MissileLaunchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissileLaunchViewController.swift; sourceTree = "<group>"; };
+		9CF05AD71F3D9200006105B6 /* Missile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Missile.swift; sourceTree = "<group>"; };
+		9CF05AD91F3D9325006105B6 /* smoke.scnp */ = {isa = PBXFileReference; lastKnownFileType = file.scp; path = smoke.scnp; sourceTree = "<group>"; };
+		9CF05ADA1F3D9325006105B6 /* smoke.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = smoke.png; sourceTree = "<group>"; };
+		9CF05ADD1F3D967A006105B6 /* fire.scnp */ = {isa = PBXFileReference; lastKnownFileType = file.scp; path = fire.scnp; sourceTree = "<group>"; };
+		9CF05ADE1F3D967A006105B6 /* spark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spark.png; sourceTree = "<group>"; };
+		9CF05AE21F3D9981006105B6 /* TargetShooterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TargetShooterViewController.swift; sourceTree = "<group>"; };
+		9CF05AE51F3DA41A006105B6 /* MeasuringTapeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeasuringTapeViewController.swift; sourceTree = "<group>"; };
+		9CF05AE81F3DAE46006105B6 /* LightEstimationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LightEstimationViewController.swift; sourceTree = "<group>"; };
+		9CF05AEB1F3DB180006105B6 /* RemoteCarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteCarViewController.swift; sourceTree = "<group>"; };
+		9CF05AED1F3DBC77006105B6 /* GameButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +83,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9C5493E41F3CB713005F35BA /* MissileLauncher */ = {
+			isa = PBXGroup;
+			children = (
+				9CF05AB51F3D8E22006105B6 /* MissileLaunchViewController.swift */,
+				9CF05AD71F3D9200006105B6 /* Missile.swift */,
+				9CF05AD91F3D9325006105B6 /* smoke.scnp */,
+				9CF05ADA1F3D9325006105B6 /* smoke.png */,
+				9CF05ADD1F3D967A006105B6 /* fire.scnp */,
+				9CF05ADE1F3D967A006105B6 /* spark.png */,
+			);
+			path = MissileLauncher;
+			sourceTree = "<group>";
+		};
+		9C89549C1F3DD51500B6CAE8 /* OverviewViewController */ = {
+			isa = PBXGroup;
+			children = (
+				9C89549D1F3DD52A00B6CAE8 /* OverviewViewController.swift */,
+				9C89549F1F3DD67B00B6CAE8 /* VCTableViewCell.swift */,
+			);
+			path = OverviewViewController;
+			sourceTree = "<group>";
+		};
 		9C8F3D891F3C57ED003D6DFC = {
 			isa = PBXGroup;
 			children = (
@@ -56,6 +124,13 @@
 		9C8F3D941F3C57ED003D6DFC /* Cubie */ = {
 			isa = PBXGroup;
 			children = (
+				9C89549C1F3DD51500B6CAE8 /* OverviewViewController */,
+				9CF05AEA1F3DB173006105B6 /* RemoteCar */,
+				9CF05AE71F3DAE2A006105B6 /* LightEstimation */,
+				9CF05AE41F3DA3C1006105B6 /* MeasuringTape */,
+				9CF05AE11F3D996F006105B6 /* TargetShooter */,
+				9C5493E41F3CB713005F35BA /* MissileLauncher */,
+				9CCE5B461F3C74020065F5F7 /* OverlayPlanes */,
 				9C8F3D951F3C57ED003D6DFC /* AppDelegate.swift */,
 				9C8F3D971F3C57ED003D6DFC /* art.scnassets */,
 				9C8F3D991F3C57ED003D6DFC /* ViewController.swift */,
@@ -63,8 +138,58 @@
 				9C8F3D9E1F3C57ED003D6DFC /* Assets.xcassets */,
 				9C8F3DA01F3C57ED003D6DFC /* LaunchScreen.storyboard */,
 				9C8F3DA31F3C57ED003D6DFC /* Info.plist */,
+				9C8F3DA91F3C57FA003D6DFC /* CubeViewController.swift */,
+				9C8F3DAB1F3C5E73003D6DFC /* TextViewController.swift */,
+				9C8F3DAD1F3C5E9C003D6DFC /* MultipleObjectsViewController.swift */,
+				9C8F3DB11F3C6250003D6DFC /* TapGestureViewController.swift */,
+				9C8F3DB31F3C648E003D6DFC /* DetectingPlanesViewController.swift */,
+				9CCE5B691F3C84820065F5F7 /* VirtualObjectsViewController.swift */,
+				9CF05AB31F3CBA3C006105B6 /* PlanetsViewController.swift */,
 			);
 			path = Cubie;
+			sourceTree = "<group>";
+		};
+		9CCE5B461F3C74020065F5F7 /* OverlayPlanes */ = {
+			isa = PBXGroup;
+			children = (
+				9CCE5B441F3C73F10065F5F7 /* OverlayingPlanes.swift */,
+				9CCE5B471F3C740E0065F5F7 /* OverlayPlane.swift */,
+			);
+			path = OverlayPlanes;
+			sourceTree = "<group>";
+		};
+		9CF05AE11F3D996F006105B6 /* TargetShooter */ = {
+			isa = PBXGroup;
+			children = (
+				9CF05AE21F3D9981006105B6 /* TargetShooterViewController.swift */,
+			);
+			path = TargetShooter;
+			sourceTree = "<group>";
+		};
+		9CF05AE41F3DA3C1006105B6 /* MeasuringTape */ = {
+			isa = PBXGroup;
+			children = (
+				9CF05AE51F3DA41A006105B6 /* MeasuringTapeViewController.swift */,
+			);
+			path = MeasuringTape;
+			sourceTree = "<group>";
+		};
+		9CF05AE71F3DAE2A006105B6 /* LightEstimation */ = {
+			isa = PBXGroup;
+			children = (
+				9CF05AE81F3DAE46006105B6 /* LightEstimationViewController.swift */,
+			);
+			path = LightEstimation;
+			sourceTree = "<group>";
+		};
+		9CF05AEA1F3DB173006105B6 /* RemoteCar */ = {
+			isa = PBXGroup;
+			children = (
+				9CF05AEB1F3DB180006105B6 /* RemoteCarViewController.swift */,
+				9CF05AED1F3DBC77006105B6 /* GameButton.swift */,
+				9C89549A1F3DC03300B6CAE8 /* Car.swift */,
+			);
+			path = RemoteCar;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -99,6 +224,7 @@
 				TargetAttributes = {
 					9C8F3D911F3C57ED003D6DFC = {
 						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Manual;
 					};
 				};
 			};
@@ -126,8 +252,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				9C8F3D981F3C57ED003D6DFC /* art.scnassets in Resources */,
+				9CF05ADC1F3D9325006105B6 /* smoke.png in Resources */,
+				9CF05ADF1F3D967A006105B6 /* fire.scnp in Resources */,
 				9C8F3DA21F3C57ED003D6DFC /* LaunchScreen.storyboard in Resources */,
 				9C8F3D9F1F3C57ED003D6DFC /* Assets.xcassets in Resources */,
+				9CF05AE01F3D967A006105B6 /* spark.png in Resources */,
+				9CF05ADB1F3D9325006105B6 /* smoke.scnp in Resources */,
 				9C8F3D9D1F3C57ED003D6DFC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -139,8 +269,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9C8F3DB21F3C6250003D6DFC /* TapGestureViewController.swift in Sources */,
+				9CCE5B6A1F3C84820065F5F7 /* VirtualObjectsViewController.swift in Sources */,
+				9CF05AE91F3DAE46006105B6 /* LightEstimationViewController.swift in Sources */,
 				9C8F3D9A1F3C57ED003D6DFC /* ViewController.swift in Sources */,
+				9CF05AE61F3DA41A006105B6 /* MeasuringTapeViewController.swift in Sources */,
+				9CF05AEC1F3DB180006105B6 /* RemoteCarViewController.swift in Sources */,
+				9C8F3DB41F3C648E003D6DFC /* DetectingPlanesViewController.swift in Sources */,
+				9CF05AEE1F3DBC77006105B6 /* GameButton.swift in Sources */,
+				9CF05AE31F3D9981006105B6 /* TargetShooterViewController.swift in Sources */,
+				9C8F3DAE1F3C5E9C003D6DFC /* MultipleObjectsViewController.swift in Sources */,
+				9CCE5B451F3C73F10065F5F7 /* OverlayingPlanes.swift in Sources */,
 				9C8F3D961F3C57ED003D6DFC /* AppDelegate.swift in Sources */,
+				9C8F3DAA1F3C57FA003D6DFC /* CubeViewController.swift in Sources */,
+				9CF05AB61F3D8E22006105B6 /* MissileLaunchViewController.swift in Sources */,
+				9CCE5B481F3C740E0065F5F7 /* OverlayPlane.swift in Sources */,
+				9C8954A01F3DD67B00B6CAE8 /* VCTableViewCell.swift in Sources */,
+				9CF05AB41F3CBA3C006105B6 /* PlanetsViewController.swift in Sources */,
+				9C89549B1F3DC03300B6CAE8 /* Car.swift in Sources */,
+				9C89549E1F3DD52A00B6CAE8 /* OverviewViewController.swift in Sources */,
+				9CF05AD81F3D9200006105B6 /* Missile.swift in Sources */,
+				9C8F3DAC1F3C5E73003D6DFC /* TextViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,11 +426,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 84G9FJR5U9;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 8MMCHWVX54;
 				INFOPLIST_FILE = Cubie/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mubaloo.Cubie;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "646227d6-4f44-418b-9a7a-5fbe56e1feab";
+				PROVISIONING_PROFILE_SPECIFIER = "Xcode-8-Wildcard";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -291,11 +443,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 84G9FJR5U9;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 8MMCHWVX54;
 				INFOPLIST_FILE = Cubie/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mubaloo.Cubie;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "646227d6-4f44-418b-9a7a-5fbe56e1feab";
+				PROVISIONING_PROFILE_SPECIFIER = "Xcode-8-Wildcard";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
